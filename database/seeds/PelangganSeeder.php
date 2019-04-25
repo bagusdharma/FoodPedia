@@ -25,7 +25,10 @@ class PelangganSeeder extends Seeder
 
             DB::table('users')->insert([
                 'name' => $nama,
-                'email' => 'pelanggans'.($i).'@gmail.com',
+                'email' => 'pelanggan'.($i).'@gmail.com',
+                'phone' => '0812343123'.($i),
+                'address' => $faker->address,
+                'description' => 'Jalani hidup dengan santai',
                 'password' => bcrypt('pelanggan123'),
             ]);
         }
