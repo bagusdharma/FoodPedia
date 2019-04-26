@@ -11,13 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('template.master');
+// });
 
 // Route::
 
 Auth::routes();
 
+Route::get('/', 'PelangganController@index');
+// Route::get('/login', '')
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile', 'PelangganController@getPelanggan')->name('get.pelanggan');

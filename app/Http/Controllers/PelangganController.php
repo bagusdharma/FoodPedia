@@ -10,9 +10,14 @@ use Auth;
 
 class PelangganController extends Controller
 {
+
+    public function index()
+    {
+        return view('layouts.app');
+    }
+
     public function getPelanggan()
     {
-        // $frs = Pelanggan::where('id', Auth::user()->id)->get();
         $data = auth()->user();
         print_r ($data->name);
         print_r ($data->email);
