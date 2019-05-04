@@ -19,7 +19,19 @@
 
 Auth::routes();
 
-Route::get('/', 'PelangganController@index');
+// Route::get('/', 'PelangganController@index');
 // Route::get('/login', '')
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
+Route::get('/', function () {
+        return view('foodhome');
+    })->name('home');
 Route::get('/profile', 'PelangganController@getPelanggan')->name('get.pelanggan');
+Route::get('/breakfast', function () {
+            return view('kategori');
+        
+         });
+
+// Route::get('/coba', function () {
+//        return view('foodhome');
+    
+//     });

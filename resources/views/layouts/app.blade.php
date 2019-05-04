@@ -15,15 +15,27 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/set1.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/themify-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/simple-line-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/kategori.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/kategori1.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/kategori2.css') }}" rel="stylesheet">
+    
+    
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('css')
 </head>
 <body>
     <div id="app">
         @include('template.navbar')
 
-        <main class="py-4">
+        <main class="">
             @yield('content')
         </main>
 
