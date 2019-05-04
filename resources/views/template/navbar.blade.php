@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md navbar-light navbar-laravel fixed-top">
-    <div class="container">
+<nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
             <img src="{{asset('assets/logo.png')}}" class="img-fluid" alt="foodpedia" width="125px" height="40px">
         </a>
@@ -40,7 +40,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle" width="30px" height="30px"
+                        <img src="assets/avatar.png" class="rounded-circle" width="30px" height="30px"
                         alt="avatar image">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -74,4 +74,5 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> 
+
