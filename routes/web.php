@@ -11,27 +11,13 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('template.master');
-// });
-
-// Route::
-
 Auth::routes();
 
-// Route::get('/', 'PelangganController@index');
-// Route::get('/login', '')
 Route::get('/home', 'HomeController@index');
 Route::get('/', function () {
         return view('foodhome');
     })->name('home');
 Route::get('/profile', 'PelangganController@getPelanggan')->name('get.pelanggan');
 Route::get('/breakfast', function () {
-            return view('kategori');
-        
-         });
-
-// Route::get('/coba', function () {
-//        return view('foodhome');
-    
-//     });
+        return view('kategori');
+});

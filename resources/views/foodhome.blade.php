@@ -4,7 +4,6 @@
 
  <!-- SLIDER -->
  <section class="slider d-flex align-items-center">
-        <!-- <img src="images/slider.jpg" class="img-fluid" alt="#"> -->
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-12">
@@ -12,7 +11,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="slider-content_wrap" style="color:white">
-                                    <h1>Discover great places in New york</h1>
+                                    <h1>Discover great restaurant in Indonesia</h1>
                                     <h5>Let's uncover the best places to eat, drink, and shop nearest to you.</h5>
                                 </div>
                             </div>
