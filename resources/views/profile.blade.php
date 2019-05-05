@@ -1,133 +1,175 @@
 @extends('layouts.app')
 
-@section('css')
-    <style>
-        
-    </style>
-    
-@endsection
-
 @section('content')
-<section class="features19 cid-qIjES4e5vV" id="features19-5" data-sortbtn="btn-primary">
-        <div class="container">
-            <h5 class="mbr-section-title align-center mbr-fonts-style display-2">
-                Breakfast</h5>
-            <div class="row justify-content-center align-items-start">
-                <div class="col-lg-3">
-                    <div class="panel panel-info">
-                        <div class="panel-body">
-                                <div class="card-img">
-                                        {{-- <img src="assets/images/03.jpg" alt="html business templates"> --}}
-                                        {{-- <div class="img-text mbr-text mbr-fonts-style align-left mbr-white display-4"> --}}
-                                             HEADPHONES
-                                        {{-- </div> --}}
-                                    </div>
-                                    <div class="card-box">
-                                        <p class="mbr-card-text mbr-fonts-style align-left display-7">
-                                            Experience the exact same elevated experience and also amazing audio UHP has actually been providing to auditorium, workshops and also living rooms for 50 years with HTML Business Templates.
-                                        </p>
-                                        
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-3">
-                        <div class="card">
-                            <div class="card-body">
-                                    <div class="card-img">
-                                            {{-- <img src="assets/images/03.jpg" alt="html business templates"> --}}
-                                            {{-- <div class="img-text mbr-text mbr-fonts-style align-left mbr-white display-4"> --}}
-                                                 HEADPHONES
-                                            {{-- </div> --}}
-                                        </div>
-                                        <div class="card-box">
-                                            <p class="mbr-card-text mbr-fonts-style align-left display-7">
-                                                Experience the exact same elevated experience and also amazing audio UHP has actually been providing to auditorium, workshops and also living rooms for 50 years with HTML Business Templates.
-                                            </p>
-                                            
-                                        </div>
-                            </div>
-                        </div>
-                    </div>
+<!--============================= HEADER =============================-->
+<div class="dark-bg sticky-top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="/">FoodPedia</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-menu"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Kategori
+                                    <span class="icon-arrow-down"></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="">Breakfast</a>
+                                    <a class="dropdown-item" href="">Lunch</a>
+                                    <a class="dropdown-item" href="">Dinner</a>
+                                    <a class="dropdown-item" href="">FastFood</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Lokasi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Tentang Kami</a>
+                            </li>
+                            @guest
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/avatar.png" class="rounded-circle img-fluid" width="30px"
+                                        height="30px" alt="avatar image">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a href="{{ route('login') }}" class="dropdown-item">Login</a>
+                                    <a href="{{ route('register') }}" class="dropdown-item">Register</a>
+                                </div>
+                            </li>
+                            @else
 
-                    <div class="col-lg-3">
-                            <div class="card">
-                                <div class="card-body">
-                                        <div class="card-img">
-                                                {{-- <img src="assets/images/03.jpg" alt="html business templates"> --}}
-                                                {{-- <div class="img-text mbr-text mbr-fonts-style align-left mbr-white display-4"> --}}
-                                                     HEADPHONES
-                                                {{-- </div> --}}
-                                            </div>
-                                            <div class="card-box">
-                                                <p class="mbr-card-text mbr-fonts-style align-left display-7">
-                                                    Experience the exact same elevated experience and also amazing audio UHP has actually been providing to auditorium, workshops and also living rooms for 50 years with HTML Business Templates.
-                                                </p>
-                                                
-                                            </div>
-                                </div>
-                            </div>
-                        </div>
-            </div>
-<p></p>
-            <div class="row justify-content-center align-items-start">
-                    <div class="col-lg-3">
-                            <div class="card">
-                                <div class="card-body">
-                                        <div class="card-img">
-                                                {{-- <img src="assets/images/03.jpg" alt="html business templates"> --}}
-                                                {{-- <div class="img-text mbr-text mbr-fonts-style align-left mbr-white display-4"> --}}
-                                                     HEADPHONES
-                                                {{-- </div> --}}
-                                            </div>
-                                            <div class="card-box">
-                                                <p class="mbr-card-text mbr-fonts-style align-left display-7">
-                                                    Experience the exact same elevated experience and also amazing audio UHP has actually been providing to auditorium, workshops and also living rooms for 50 years with HTML Business Templates.
-                                                </p>
-                                                
-                                            </div>
-                                </div>
-                            </div>
-                        </div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg"
+                                        class="rounded-circle img-fluid" width="30px" height="30px" alt="avatar image">
+                                    {{ Auth::user()->name }}
+                                </a>
 
-                        <div class="col-lg-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                            <div class="card-img">
-                                                    {{-- <img src="assets/images/03.jpg" alt="html business templates"> --}}
-                                                    {{-- <div class="img-text mbr-text mbr-fonts-style align-left mbr-white display-4"> --}}
-                                                         HEADPHONES
-                                                    {{-- </div> --}}
-                                                </div>
-                                                <div class="card-box">
-                                                    <p class="mbr-card-text mbr-fonts-style align-left display-7">
-                                                        Experience the exact same elevated experience and also amazing audio UHP has actually been providing to auditorium, workshops and also living rooms for 50 years with HTML Business Templates.
-                                                    </p>
-                                                    
-                                                </div>
-                                    </div>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a href="/profile" class="dropdown-item">My Profile </a>
+                                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                            document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                        style="display: none;">
+                                        @csrf
+                                    </form>
                                 </div>
-                            </div>
-                            <div class="col-lg-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                                <div class="card-img">
-                                                        {{-- <img src="assets/images/03.jpg" alt="html business templates"> --}}
-                                                        {{-- <div class="img-text mbr-text mbr-fonts-style align-left mbr-white display-4"> --}}
-                                                             HEADPHONES
-                                                        {{-- </div> --}}
-                                                    </div>
-                                                    <div class="card-box">
-                                                        <p class="mbr-card-text mbr-fonts-style align-left display-7">
-                                                            Experience the exact same elevated experience and also amazing audio UHP has actually been providing to auditorium, workshops and also living rooms for 50 years with HTML Business Templates.
-                                                        </p>
-                                                        
-                                                    </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            </li>
+                            @endguest
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
-    </section>    
+    </div>
+</div>
+<!--//END HEADER -->
+
+<style>
+    .inf-content {
+        border: 1px solid #DDDDDD;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<div class="container bootstrap snippet mt-3 mb-3">
+    <div class="card-body inf-content">
+        <div class="row">
+            <div class="col-md-5">
+                <img alt="" style="width:600px;" title="" class="rounded-circle img-thumbnail isTooltip img-fluid"
+                    src="https://bootdey.com/img/Content/user-453533-fdadfd.png" data-original-title="Usuario">
+                {{-- <ul title="Ratings" class="list-inline ratings text-center">
+                        <li><a href=""><span class="fa fa-star"></span></a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
+                    </ul> --}}
+            </div>
+            <div class="col-md-6">
+                <h5 class="mt-4"><strong>User Profile</strong></h5>
+
+                <br>
+                <div class="table-responsive">
+                    <table class="table table-condensed table-responsive table-user-information">
+                        <tbody>
+                            <tr>
+                                {{-- <br> --}}
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        Full Name
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    {{$data->name}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        Email
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    {{$data->email}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>
+                                        Phone Number
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    {{$data->phone}}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>
+                                        Description
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    {{$data->description}}
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <strong>
+                                        Address
+                                    </strong>
+                                </td>
+                                <td class="text-primary">
+                                    {{$data->address}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

@@ -138,7 +138,8 @@
                         {{-- <p>rating</p> --}}
                     </div>
                     <div class="review-btn">
-                        <a href="" class="btn btn-outline-info">WRITE A REVIEW</a>
+                        <button class="btn btn-md btn-outline-info">WRITE A REVIEW</button>
+                        {{-- <a href="" class="btn btn-outline-info">WRITE A REVIEW</a> --}}
                         <span>34 reviews</span>
                     </div>
                 </div>
