@@ -139,22 +139,22 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 featured-responsive">
+                    {{-- <div class="col-md-4 featured-responsive">
                         <div class="featured-place-wrap">
                             <a href="detail.html">
                                 <img src="{{asset('template/images/featured1.jpg')}} " class="img-fluid" alt="">
                                 <span class="featured-rating-orange">6.5</span>
                                 <div class="featured-title-box">
-                                    <h6>Bebek Sinjay</h6>
+                                    <h6>Soto Ayam Lamongan Cak Har</h6>
                                     <p>Restaurant </p> <span>• </span>
-                                    <p>50 Reviews</p> <span> • </span>
+                                    <p>12 Reviews</p> <span> • </span>
                                     <p><span>$$$$</span>$</p>
                                     <ul>
                                         <li><span class="icon-location-pin"></span>
-                                            <p>Jl. Dharmahusada No.160B, Mojo, Gubeng</p>
+                                            <p>Jl. Arif Rahman Hakim, Keputih</p>
                                         </li>
                                         <li><span class="icon-screen-smartphone"></span>
-                                            <p>0878-4965-5545</p>
+                                            <p>0821-4059-3009</p>
                                         </li>
                                         <li><span class="icon-link"></span>
                                             <p>https://google.com</p>
@@ -169,10 +169,41 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
+                    <div class="col-md-4 featured-responsive">
+                            <div class="featured-place-wrap">
+                                <a href="/detail">
+                                    <img src="{{asset('template/images/featured1.jpg')}} " class="img-fluid" alt="">
+                                    <span class="featured-rating-green">8.5</span>
+                                    <div class="featured-title-box">
+                                        <h6>Soto Ayam Lamongan Cak Har</h6>
+                                        <p>Restaurant </p> <span>• </span>
+                                        <p>12 Reviews</p> <span> • </span>
+                                        <p><span>$$$$</span>$</p>
+                                        <ul>
+                                            <li><span class="icon-location-pin"></span>
+                                                <p>Jl. Arif Rahman Hakim, Keputih</p>
+                                            </li>
+                                            <li><span class="icon-screen-smartphone"></span>
+                                                <p>0821-4059-3009</p>
+                                            </li>
+                                            <li><span class="icon-link"></span>
+                                                <p>https://google.com</p>
+                                            </li>
+        
+                                        </ul>
+                                        <div class="bottom-icons">
+                                            <div class="closed-now">CLOSED NOW</div>
+                                            <span class="ti-heart"></span>
+                                            <span class="ti-bookmark"></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     <div class="col-md-4 featured-responsive">
                         <div class="featured-place-wrap">
-                            <a href="detail.html">
+                            <a href="/detail">
                                 <img src="{{asset('template/images/featured2.jpg')}} " class="img-fluid" alt="">
                                 <span class="featured-rating-green">9.5</span>
                                 <div class="featured-title-box">
@@ -203,7 +234,7 @@
                     </div>
                     <div class="col-md-4 featured-responsive">
                         <div class="featured-place-wrap">
-                            <a href="detail.html">
+                            <a href="/detail">
                                 <img src="{{asset('template/images/featured3.jpg')}} " class="img-fluid" alt="">
                                 <span class="featured-rating">3.2</span>
                                 <div class="featured-title-box">
@@ -611,12 +642,6 @@
             </div>
         </div>
         <!--//END CATEGORIES -->
-    
-        <!-- jQuery, Bootstrap JS. -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="{{asset('template/js/jquery-3.2.1.min.js')}}"></script>
-        <script src="{{asset('template/js/popper.min.js')}}"></script>
-        <script src="{{asset('template/js/bootstrap.min.js')}}"></script>
     
         <script>
             $(window).scroll(function () {

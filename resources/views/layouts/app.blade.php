@@ -26,6 +26,11 @@
     <link rel="stylesheet" href="{{asset('template/css/set1.css')}} ">
     <!-- Main CSS -->
     <link rel="stylesheet" href="{{asset('template/css/style.css')}}">
+
+    <script src="{{asset('template/js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('template/js/popper.min.js')}}"></script>
+    <script src="{{asset('template/js/bootstrap.min.js')}}"></script>
+
     
 </head>
 
@@ -39,7 +44,6 @@
 
     @include('layouts.footer')
 
-    @yield('script')
 </body>
 
 </html>
