@@ -78,7 +78,7 @@
 </div>
 <!--//END HEADER -->
 <!--============================= slider =============================-->
-{{-- <div>
+<div>
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -120,7 +120,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
     </div>
-</div> --}}
+</div>
 <!--//END BOOKING -->
 <!--============================= RESERVE A SEAT =============================-->
 <div class="reserve-block">
@@ -134,7 +134,7 @@
             <div class="col-md-6">
                 <div class="reserve-seat-block">
                     <div class="reserve-rating">
-                        <span>8.5</span> 
+                        <span>8.5</span>
                         {{-- <p>rating</p> --}}
                     </div>
                     <div class="review-btn">
@@ -241,12 +241,16 @@
                                 to bring cash.
                             </p>
                             <ul>
-                                <li><img src="{{asset('template/images/review-img1.jpg')}}" class="img-fluid" alt="#"></li>
-                                <li><img src="{{asset('template/images/review-img2.jpg')}}" class="img-fluid" alt="#"></li>
-                                <li><img src="{{asset('template/images/review-img3.jpg')}}" class="img-fluid" alt="#"></li>
+                                <li><img src="{{asset('template/images/review-img1.jpg')}}" class="img-fluid" alt="#">
+                                </li>
+                                <li><img src="{{asset('template/images/review-img2.jpg')}}" class="img-fluid" alt="#">
+                                </li>
+                                <li><img src="{{asset('template/images/review-img3.jpg')}}" class="img-fluid" alt="#">
+                                </li>
                             </ul>
                             <span>28 people marked this review as helpful</span>
-                            <a href=""><span class="icon-like"></span>Helpful</a>
+                            <span class="padding-left:10px"></span> <button class="btn btn-sm btn-outline-success"><i
+                                    class="icon-like"></i> Helpful</button>
                         </div>
                     </div>
                     <hr>
@@ -278,22 +282,24 @@
                                 in many restaurants in Chinatown) They don't wipe down the tables after customers have
                                 eaten. If you peak into the kitchen many of their supplies are on the ground which is
                                 unsettling... </p>
-                            <span>10 people marked this review as helpful</span>
-                            <a href=""><span class="icon-like"></span>Helpful</a>
+                            <span>10 people marked this review as helpful </span>
+                            <span class="padding-left:10px"></span> <button class="btn btn-sm btn-outline-success"><i
+                                    class="icon-like"></i> Helpful</button>
                         </div>
                     </div>
-                   <p></p>
-                   <hr>
-                   <center><button class="btn btn-md btn-outline-danger mt-4"> Load More ... </button></center>
+                    <p></p>
+                    <hr>
+                    <center><button class="btn btn-md btn-outline-danger mt-3 mb-3"> Load More ... </button></center>
                 </div>
             </div>
             <div class="col-md-4 responsive-wrap">
                 <div class="contact-info">
-                    {{-- <img src="{{asset('template/images/map.jpg')}}" class="img-fluid" alt=""> --}}
-                   <span class="padding-left:20px"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.1341558927525!2d112.78410862421048!3d-7.2899957789533785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa5caf205997%3A0x6ac098f3e685cf9c!2sSoto+Ayam+Lamongan+Cak+Har!5e0!3m2!1sid!2sid!4v1557019666071!5m2!1sid!2sid" width="330" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></span>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.1341558927525!2d112.78410862421048!3d-7.2899957789533785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa5caf205997%3A0x6ac098f3e685cf9c!2sSoto+Ayam+Lamongan+Cak+Har!5e0!3m2!1sid!2sid!4v1557019666071!5m2!1sid!2sid"
+                        width="330" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <div class="address">
                         <span class="icon-location-pin"></span>
-                       <p>Jl. Arif Rahman Hakim, Keputih, Sukolilo</p> 
+                        <p>Jl. Arif Rahman Hakim, Keputih, Sukolilo</p>
                     </div>
                     <div class="address">
                         <span class="icon-screen-smartphone"></span>
@@ -320,7 +326,7 @@
 <script src="{{asset('template/js/jquery.magnific-popup.js')}}"></script>
 <!-- Swipper Slider JS -->
 <script src="{{asset('template/js/swiper.min.js')}}"></script>
-{{-- 
+
 <script>
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 3,
@@ -354,6 +360,6 @@
             }
         });
     }
-</script> --}}
+</script>
 
 @endsection

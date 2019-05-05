@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="{{asset('template/css/set1.css')}} ">
     <!-- Main CSS -->
     <link rel="stylesheet" href="{{asset('template/css/style.css')}}">
+     <!-- Swipper Slider -->
+     <link rel="stylesheet" href="{{asset('template/css/swiper.min.css')}}">
+     <!-- Magnific Popup CSS -->
+     <link rel="stylesheet" href="{{asset('template/css/magnific-popup.css')}}">
 
     <script src="{{asset('template/js/jquery-3.2.1.min.js')}}"></script>
     <script src="{{asset('template/js/popper.min.js')}}"></script>
