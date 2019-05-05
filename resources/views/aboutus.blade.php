@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
+<link rel="stylesheet" href="css/aboutus.css">
+
 @section('content')
+
 <!--============================= HEADER =============================-->
 <div class="dark-bg sticky-top">
     <div class="container-fluid">
@@ -58,7 +61,7 @@
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a href="/profile" class="dropdown-item">My Profile </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                            document.getElementById('logout-form').submit();">
+                                                                document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -78,98 +81,73 @@
 </div>
 <!--//END HEADER -->
 
-<style>
-    .inf-content {
-        border: 1px solid #DDDDDD;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        border-radius: 10px;
-        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-    }
-</style>
-
-<div class="container bootstrap snippet mt-3 mb-3">
-    <div class="card-body inf-content">
-        <div class="row">
-            <div class="col-md-5">
-                <img alt="" style="width:600px;" title="" class="rounded-circle img-thumbnail isTooltip img-fluid"
-                    src="https://bootdey.com/img/Content/user-453533-fdadfd.png" data-original-title="Usuario">
-                {{-- <ul title="Ratings" class="list-inline ratings text-center">
-                        <li><a href=""><span class="fa fa-star"></span></a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-star"></span></a></li>
-                    </ul> --}}
+<div class="container">
+    <div id="team" class="white-bg padding-top-bottom">
+        <div class="container">
+            <h1 class="section-title text-center page-title">Meet Our Team</h1>
+            <p class="section-description text-center">We are a small team with great skills. See the faces behind the
+                lines of code. </p>
+            <hr>
+            <div class="row member-content">
+                <div class="col-sm-4 col-sm-offset-1 member-thumb  fade-right in">
+                    <img class="img-fluid img-center img-thumbnail rounded-circle"
+                        src="https://bootdey.com/img/Content/User_for_snippets.png" alt="">
+                    <h4>Bagus Dharma Iswara</h4>
+                    <p class="title">5115100028</p>
+                </div>
+                <div class="col-sm-8">
+                    <div class="details">
+                       <p style="font-size:20px">Jalani kuliah dengan senang hati dan santai jangan terbebani </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h5 class="mt-4"><strong>User Profile</strong></h5>
 
-                <br>
-                <div class="table-responsive">
-                    <table class="table table-condensed table-responsive table-user-information">
-                        <tbody>
-                            <tr>
-                                {{-- <br> --}}
-                            </tr>
-                            <tr>
-                                <td>
-                                    <strong>
-                                        Full Name
-                                    </strong>
-                                </td>
-                                <td class="text-primary">
-                                    {{$data->name}}
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <strong>
-                                        Email
-                                    </strong>
-                                </td>
-                                <td class="text-primary">
-                                    {{$data->email}}
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <strong>
-                                        Phone Number
-                                    </strong>
-                                </td>
-                                <td class="text-primary">
-                                    {{$data->phone}}
-                                </td>
-                            </tr>
+            <div class="row member-content right">
+                    <div class="col-sm-8 col-sm-pull-4">
+                        <div class="details">
+                            <p style="font-size:20px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is
+                                simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-sm-push-8 member-thumb">
+                        <img class="img-fluid img-center img-thumbnail rounded-circle"
+                            src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="">
+                        <h4>Karina S</h4>
+                        <p class="title">5117----------</p>
+                    </div>
+                </div>
 
-                            <tr>
-                                <td>
-                                    <strong>
-                                        Description
-                                    </strong>
-                                </td>
-                                <td class="text-primary">
-                                    {{$data->description}}
-                                </td>
-                            </tr>
+            <div class="row member-content">
+                <div class="col-sm-4 col-sm-offset-1 member-thumb">
+                    <img class="img-fluid img-center img-thumbnail rounded-circle"
+                        src="https://bootdey.com/img/Content/HexGames349.jpg" alt="">
+                    <h4>El morenito</h4>
+                    <p class="title">Lead Developer</p>
+                </div>
+                <div class="col-sm-8">
+                    <div class="details">
+                        <p style="font-size:20px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is
+                            simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
 
-
-                            <tr>
-                                <td>
-                                    <strong>
-                                        Address
-                                    </strong>
-                                </td>
-                                <td class="text-primary">
-                                    {{$data->address}}
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="row member-content right">
+                <div class="col-sm-8 col-sm-pull-4">
+                    <div class="details">
+                        <p style="font-size:20px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is
+                            simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-push-8 member-thumb">
+                    <img class="img-fluid img-center img-thumbnail rounded-circle"
+                        src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="">
+                    <h4>Karina S</h4>
+                    <p class="title">5117----------</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 @endsection

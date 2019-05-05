@@ -24,3 +24,6 @@ Route::get('/breakfast', function () {
 Route::get('/detail', function () {
         return view('detail');
 });
+Route::get('/aboutus', function () {
+        return view('aboutus');
+});

@@ -35,7 +35,7 @@
                                     <a class="nav-link" href="">Lokasi</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Tentang Kami</a>
+                                    <a class="nav-link" href="/aboutus">Tentang Kami</a>
                                 </li>
                                 @guest
                                 <li class="nav-item dropdown">
