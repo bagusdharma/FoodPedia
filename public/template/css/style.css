@@ -847,7 +847,7 @@ footer {
   background: #fff;
   padding: 0 0 6px;
   margin: 0 0 15px; }
-  .contact-info img {
+  .contact-info iframe {
     width: 100%; }
   .contact-info label {
     color: #46cd38;

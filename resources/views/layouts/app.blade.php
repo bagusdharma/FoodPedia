@@ -36,11 +36,21 @@
    <link rel="stylesheet" type="text/css" href="{{asset('login_page/css/main.css')}} ">
 <!--===============================================================================================-->
    @yield('css') 
+     <!-- Swipper Slider -->
+     <link rel="stylesheet" href="{{asset('template/css/swiper.min.css')}}">
+     <!-- Magnific Popup CSS -->
+     <link rel="stylesheet" href="{{asset('template/css/magnific-popup.css')}}">
+
+    <script src="{{asset('template/js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('template/js/popper.min.js')}}"></script>
+    <script src="{{asset('template/js/bootstrap.min.js')}}"></script>
+
+    
 </head>
 
 <body>
 
-    @include('layouts.navbar')
+    {{-- @include('layouts.navbar') --}}
 
 
     @yield('content')
@@ -48,7 +58,6 @@
 
     @include('layouts.footer')
 
-    @yield('script')
 </body>
 
 </html>

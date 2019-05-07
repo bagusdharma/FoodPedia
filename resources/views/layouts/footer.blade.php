@@ -1,4 +1,4 @@
-<footer class="main-block dark-bg ">
+<footer class="main-block dark-bg " >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -14,4 +14,4 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
