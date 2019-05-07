@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+.star p{
+    color: #ffb006;
+}
+</style>
 <!--============================= HEADER =============================-->
 <div class="dark-bg sticky-top">
     <div class="container-fluid">
@@ -21,7 +26,7 @@
                                     <span class="icon-arrow-down"></span>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="">Breakfast</a>
+                                    <a class="dropdown-item" href="/breakfast">Breakfast</a>
                                     <a class="dropdown-item" href="">Lunch</a>
                                     <a class="dropdown-item" href="">Dinner</a>
                                     <a class="dropdown-item" href="">FastFood</a>
@@ -128,18 +133,16 @@
         <div class="row">
             <div class="col-md-6">
                 <h5>Soto Ayam Lamongan Cak Har</h5>
-                <p><span>$$$$</span>$</p>
+                <p><span>&#9733;&#9733;&#9733;&#9733;</span>&#9734;</p>
                 <p class="reserve-description">Innovative cooking, paired with fine wines in a modern setting.</p>
             </div>
             <div class="col-md-6">
                 <div class="reserve-seat-block">
                     <div class="reserve-rating">
                         <span>8.5</span>
-                        {{-- <p>rating</p> --}}
                     </div>
                     <div class="review-btn">
                         <button class="btn btn-md btn-outline-info">WRITE A REVIEW</button>
-                        {{-- <a href="" class="btn btn-outline-info">WRITE A REVIEW</a> --}}
                         <span>34 reviews</span>
                     </div>
                 </div>
@@ -212,18 +215,16 @@
                     <div class="customer-review_wrap">
                         <div class="customer-img">
                             <img src="{{asset('template/images/customer-img1.jpg')}}" class="img-fluid" alt="#">
-                            <p>Amanda G</p>
+                            <p>Karina</p>
                             <span>35 Reviews</span>
                         </div>
                         <div class="customer-content-wrap">
                             <div class="customer-content">
                                 <div class="customer-review">
                                     <h6>Best noodles in the Newyork city</h6>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span class="round-icon-blank"></span>
+                                    <div class="star">
+                                        <p>&#9733;&#9733;&#9733;&#9733;</p><p>&#9734;</p>
+                                    </div>
                                     <p>Reviewed 2 days ago</p>
                                 </div>
                                 <div class="customer-rating">8.0</div>

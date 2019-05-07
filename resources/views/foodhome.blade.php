@@ -25,7 +25,7 @@
                                         <span class="icon-arrow-down"></span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="">Breakfast</a>
+                                        <a class="dropdown-item" href="/breakfast">Breakfast</a>
                                         <a class="dropdown-item" href="">Lunch</a>
                                         <a class="dropdown-item" href="">Dinner</a>
                                         <a class="dropdown-item" href="">FastFood</a>
@@ -263,7 +263,7 @@
                     <h6>Soto Ayam Lamongan Cak Har</h6>
                     <p>Restaurant </p> <span>• </span>
                     <p>12 Reviews</p> <span> • </span>
-                    <p><span>$$$$</span>$</p>
+                    <p><span>&#9733;&#9733;&#9733;&#9733;</span>&#9734;</p>
                     <ul>
                         <li><span class="icon-location-pin"></span>
                             <p>Jl. Arif Rahman Hakim, Keputih</p>
@@ -294,7 +294,7 @@
                     <h6>Bebek Sinjay</h6>
                     <p>Restaurant </p> <span>• </span>
                     <p>45 Reviews</p> <span> • </span>
-                    <p><span>$$$$</span>$</p>
+                    <p><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
                     <ul>
                         <li><span class="icon-location-pin"></span>
                             <p>Jl. Dharmahusada No.160B, Mojo, Gubeng</p>
@@ -325,7 +325,7 @@
                     <h6>Tasty Hand-Pulled Noodles</h6>
                     <p>Restaurant </p> <span>• </span>
                     <p>3 Reviews</p> <span> • </span>
-                    <p><span>$$$</span>$$</p>
+                    <p><span>&#9733;&#9733;&#9733;</span>&#9734;&#9734;</p>
                     <ul>
                         <li><span class="icon-location-pin"></span>
                             <p>1301 Avenue, Brooklyn, NY 11230</p>

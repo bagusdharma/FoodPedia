@@ -18,12 +18,15 @@ Route::get('/', function () {
         return view('foodhome');
     })->name('home');
 Route::get('/profile', 'PelangganController@getPelanggan')->name('get.pelanggan');
-Route::get('/breakfast', function () {
-        return view('kategori');
-});
+// Route::get('/breakfast', function () {
+//         return view('kategori');
+// });
 Route::get('/detail', function () {
         return view('detail');
 });
 Route::get('/aboutus', function () {
         return view('aboutus');
+});
+Route::get('/breakfast', function () {
+        return view('breakfast');
 });
