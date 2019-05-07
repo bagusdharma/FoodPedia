@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="/">FoodPedia</a>
+                        <a class="navbar-brand" style="color:white" href="/">FoodPedia</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    <a class="nav-link" style="color:white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         Kategori
                                         <span class="icon-arrow-down"></span>
@@ -32,10 +32,10 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Lokasi</a>
+                                    <a class="nav-link" style="color:white" href="">Lokasi</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/aboutus">Tentang Kami</a>
+                                    <a class="nav-link" style="color:white" href="/aboutus">Tentang Kami</a>
                                 </li>
                                 @guest
                                 <li class="nav-item dropdown">
