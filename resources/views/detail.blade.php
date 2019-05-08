@@ -282,7 +282,7 @@
                     </div>
                     <p></p>
                     <hr>
-                    <center><button class="btn btn-md btn-outline-danger mt-3 mb-3"> Load More ... </button></center>
+                   <a href="/review"><center><button class="btn btn-md btn-outline-danger mt-3 mb-3"> Load More ... </button></center></a> 
                 </div>
             </div>
             <div class="col-md-4 responsive-wrap">

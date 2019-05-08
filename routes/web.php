@@ -65,3 +65,7 @@ Route::get('/dinnerview', function () {
 Route::get('/fastfoodview', function () {
         return view('fastfoodview');
 });
+
+Route::get('/review', function () {
+        return view('review');
+});
