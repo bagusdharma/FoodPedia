@@ -128,6 +128,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
+                    <a href="/hasil">
                 <div class="find-place-img_wrap">
                     <div class="grid">
                         <figure class="effect-ruby">
@@ -139,10 +140,12 @@
                         </figure>
                     </div>
                 </div>
+                    </a>
             </div>
             <div class="col-md-4">
                 <div class="row find-img-align">
                     <div class="col-md-12">
+                            <a href="/hasil">
                         <div class="find-place-img_wrap">
                             <div class="grid">
                                 <figure class="effect-ruby">
@@ -155,10 +158,12 @@
                                 </figure>
                             </div>
                         </div>
+                            </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
+                            <a href="/hasil">
                         <div class="find-place-img_wrap">
                             <div class="grid">
                                 <figure class="effect-ruby">
@@ -171,12 +176,13 @@
                                 </figure>
                             </div>
                         </div>
+                    </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="row find-img-align">
-                    <div class="col-md-12">
+                    <div class="col-md-12"> <a href="/hasil">
                         <div class="find-place-img_wrap">
                             <div class="grid">
                                 <figure class="effect-ruby">
@@ -188,11 +194,12 @@
                                     </figcaption>
                                 </figure>
                             </div>
-                        </div>
+                        </a></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
+                            <a href="/hasil">
                         <div class="find-place-img_wrap">
                             <div class="grid">
                                 <figure class="effect-ruby">
@@ -205,6 +212,7 @@
                                 </figure>
                             </div>
                         </div>
+                            </a>
                     </div>
                 </div>
             </div>
