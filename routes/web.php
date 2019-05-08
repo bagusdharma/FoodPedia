@@ -30,3 +30,18 @@ Route::get('/aboutus', function () {
 Route::get('/breakfast', function () {
         return view('breakfast');
 });
+Route::get('/lokasi', function () {
+        return view('lokasi');
+});
+
+Route::get('/lunch', function () {
+        return view('lunch');
+});
+
+Route::get('/dinner', function () {
+        return view('dinner');
+});
+
+Route::get('/fastfood', function () {
+        return view('layouts.fastfood');
+});

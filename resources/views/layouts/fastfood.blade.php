@@ -84,7 +84,7 @@
         <div class="row justify-content-center">
             <div class="col-md-5">
                 <div class="styled-heading">
-                    <h3>Breakfast</h3>
+                    <h3>Fast Food</h3>
                 </div>
             </div>
         </div>
@@ -94,23 +94,23 @@
                     <a href="/detail">
                         <img src="{{asset('template/images/featured1.jpg')}} " class="img-fluid" alt="">
                         <div class="featured-title-box">
-                            <h6>Soto Cak Har</h6>
+                            <h6>McDonald's Mulyosari</h6>
                             <p>Restaurant </p> <span>• </span>
                             <p>12 Reviews</p> <span></span>
                             <ul>
                                 <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Arif Rahman Hakim, Keputih</p>
+                                    <p>Jl. Mulyosari No.77</p>
                                 </li>
                                 <li><span class="icon-screen-smartphone"></span>
                                     <p>0821-4059-3009</p>
                                 </li>
                                 <li>
-                                    <p><span>&#9733;</span>&nbsp; 8.5/10</p>
+                                    <p><span>&#9733;</span>&nbsp; 9/10</p>
                                 </li>
 
                             </ul>
                             <div class="bottom-icons">
-                                <div class="closed-now">CLOSED NOW</div>
+                                <div class="open-now">OPEN NOW</div>
                                 <span class="ti-heart"></span>
                                 <span class="ti-bookmark"></span>
                             </div>
@@ -123,12 +123,12 @@
                     <a href="/detail">
                         <img src="{{asset('template/images/featured2.jpg')}} " class="img-fluid" alt="">
                         <div class="featured-title-box">
-                            <h6>Bebek Sinjay</h6>
+                            <h6>KFC Mulyosari</h6>
                             <p>Restaurant </p> <span>• </span>
                             <p>45 Reviews</p> <span> </span>
                             <ul>
                                 <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Dharmahusada No.160B, Mojo, Gubeng</p>
+                                    <p>Jl. Mulyosari No.17</p>
                                 </li>
                                 <li><span class="icon-screen-smartphone"></span>
                                     <p>0878-4965-5545</p>
@@ -152,12 +152,12 @@
                     <a href="/detail">
                         <img src="{{asset('template/images/featured3.jpg')}} " class="img-fluid" alt="">
                         <div class="featured-title-box">
-                            <h6>Tasty Hand-Pulled Noodles</h6>
+                            <h6>PHD Mulyosari</h6>
                             <p>Restaurant </p> <span>• </span>
                             <p>3 Reviews</p> <span>  </span>
                             <ul>
                                 <li><span class="icon-location-pin"></span>
-                                    <p>1301 Avenue, Brooklyn, NY 11230</p>
+                                    <p>Jl. Mulyosari No.44</p>
                                 </li>
                                 <li><span class="icon-screen-smartphone"></span>
                                     <p>+44 20 7336 8898</p>
@@ -177,96 +177,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 featured-responsive">
-                <div class="featured-place-wrap">
-                    <a href="/detail">
-                        <img src="{{asset('template/images/featured1.jpg')}} " class="img-fluid" alt="">
-                        <div class="featured-title-box">
-                            <h6>Soto Cak Har</h6>
-                            <p>Restaurant </p> <span>• </span>
-                            <p>12 Reviews</p> <span></span>
-                            <ul>
-                                <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Arif Rahman Hakim, Keputih</p>
-                                </li>
-                                <li><span class="icon-screen-smartphone"></span>
-                                    <p>0821-4059-3009</p>
-                                </li>
-                                <li>
-                                    <p><span>&#9733;</span>&nbsp; 8.5/10</p>
-                                </li>
-
-                            </ul>
-                            <div class="bottom-icons">
-                                <div class="closed-now">CLOSED NOW</div>
-                                <span class="ti-heart"></span>
-                                <span class="ti-bookmark"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 featured-responsive">
-                <div class="featured-place-wrap">
-                    <a href="/detail">
-                        <img src="{{asset('template/images/featured2.jpg')}} " class="img-fluid" alt="">
-                        <div class="featured-title-box">
-                            <h6>Bebek Sinjay</h6>
-                            <p>Restaurant </p> <span>• </span>
-                            <p>45 Reviews</p> <span> </span>
-                            <ul>
-                                <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Dharmahusada No.160B, Mojo, Gubeng</p>
-                                </li>
-                                <li><span class="icon-screen-smartphone"></span>
-                                    <p>0878-4965-5545</p>
-                                </li>
-                                <li>
-                                    <p><span>&#9733;</span>&nbsp; 8.5/10</p>
-                                </li>
-
-                            </ul>
-                            <div class="bottom-icons">
-                                <div class="open-now">OPEN NOW</div>
-                                <span class="ti-heart"></span>
-                                <span class="ti-bookmark"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 featured-responsive">
-                <div class="featured-place-wrap">
-                    <a href="/detail">
-                        <img src="{{asset('template/images/featured3.jpg')}} " class="img-fluid" alt="">
-                        <div class="featured-title-box">
-                            <h6>Tasty Hand-Pulled Noodles</h6>
-                            <p>Restaurant </p> <span>• </span>
-                            <p>3 Reviews</p> <span>  </span>
-                            <ul>
-                                <li><span class="icon-location-pin"></span>
-                                    <p>1301 Avenue, Brooklyn, NY 11230</p>
-                                </li>
-                                <li><span class="icon-screen-smartphone"></span>
-                                    <p>+44 20 7336 8898</p>
-                                </li>
-                                <li>
-                                    <p><span>&#9733;</span>&nbsp; 8.5/10</p>
-                                </li>
-
-                            </ul>
-                            <div class="bottom-icons">
-                                <div class="open-now">OPEN NOW</div>
-                                <span class="ti-heart"></span>
-                                <span class="ti-bookmark"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
+ 
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="featured-btn-wrap">
