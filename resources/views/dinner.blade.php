@@ -84,7 +84,7 @@
         <div class="row justify-content-center">
             <div class="col-md-5">
                 <div class="styled-heading">
-                    <h3>Breakfast</h3>
+                    <h3>Dinner</h3>
                 </div>
             </div>
         </div>
@@ -94,12 +94,12 @@
                     <a href="/detail">
                         <img src="{{asset('template/images/featured1.jpg')}} " class="img-fluid" alt="">
                         <div class="featured-title-box">
-                            <h6>Soto Cak Har</h6>
+                            <h6>Bubur Ayam Mang Dudung</h6>
                             <p>Restaurant </p> <span>• </span>
                             <p>12 Reviews</p> <span></span>
                             <ul>
                                 <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Arif Rahman Hakim, Keputih</p>
+                                    <p>Jl. Kedung Doro No.107, Kedungdoro</p>
                                 </li>
                                 <li><span class="icon-screen-smartphone"></span>
                                     <p>0821-4059-3009</p>
@@ -123,12 +123,12 @@
                     <a href="/detail">
                         <img src="{{asset('template/images/featured2.jpg')}} " class="img-fluid" alt="">
                         <div class="featured-title-box">
-                            <h6>Bebek Sinjay</h6>
+                            <h6>Bebek Pahlawan</h6>
                             <p>Restaurant </p> <span>• </span>
                             <p>45 Reviews</p> <span> </span>
                             <ul>
                                 <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Dharmahusada No.160B, Mojo, Gubeng</p>
+                                    <p>Jl. Raya Inspeksi 17</p>
                                 </li>
                                 <li><span class="icon-screen-smartphone"></span>
                                     <p>0878-4965-5545</p>
@@ -212,12 +212,12 @@
                     <a href="/detail">
                         <img src="{{asset('template/images/featured2.jpg')}} " class="img-fluid" alt="">
                         <div class="featured-title-box">
-                            <h6>Bebek Sinjay</h6>
+                            <h6>Mie Aceh</h6>
                             <p>Restaurant </p> <span>• </span>
                             <p>45 Reviews</p> <span> </span>
                             <ul>
                                 <li><span class="icon-location-pin"></span>
-                                    <p>Jl. Dharmahusada No.160B, Mojo, Gubeng</p>
+                                    <p>Jl. Klampis No.160B</p>
                                 </li>
                                 <li><span class="icon-screen-smartphone"></span>
                                     <p>0878-4965-5545</p>

@@ -26,9 +26,9 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <a class="dropdown-item" href="/breakfast">Breakfast</a>
-                                        <a class="dropdown-item" href="">Lunch</a>
-                                        <a class="dropdown-item" href="">Dinner</a>
-                                        <a class="dropdown-item" href="">FastFood</a>
+                                        <a class="dropdown-item" href="/lunch">Lunch</a>
+                                        <a class="dropdown-item" href="/dinner">Dinner</a>
+                                        <a class="dropdown-item" href="/fastfood">FastFood</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

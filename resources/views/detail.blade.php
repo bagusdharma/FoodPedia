@@ -1,11 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<style>
-.star p{
-    color: #ffb006;
-}
-</style>
+
 <!--============================= HEADER =============================-->
 <div class="dark-bg sticky-top">
     <div class="container-fluid">
@@ -222,9 +218,7 @@
                             <div class="customer-content">
                                 <div class="customer-review">
                                     <h6>Best noodles in the Newyork city</h6>
-                                    <div class="star">
-                                        <p>&#9733;&#9733;&#9733;&#9733;</p><p>&#9734;</p>
-                                    </div>
+                                   <p><font color="orange">&#9733;&#9733;&#9733;&#9733;</font>&#9733;</p>
                                     <p>Reviewed 2 days ago</p>
                                 </div>
                                 <div class="customer-rating">8.0</div>
@@ -259,20 +253,17 @@
                     <div class="customer-review_wrap">
                         <div class="customer-img">
                             <img src="{{asset('template/images/customer-img2.jpg')}}" class="img-fluid" alt="#">
-                            <p>Kevin W</p>
+                            <p>Bagus</p>
                             <span>17 Reviews</span>
                         </div>
                         <div class="customer-content-wrap">
                             <div class="customer-content">
                                 <div class="customer-review">
                                     <h6>A hole-in-the-wall old school shop.</h6>
-                                    <span class="customer-rating-red"></span>
-                                    <span class="round-icon-blank"></span>
-                                    <span class="round-icon-blank"></span>
-                                    <span class="round-icon-blank"></span>
-                                    <span class="round-icon-blank"></span>
+                                    {{-- <span></span> --}} <p><font color="orange">&#9733;</font>&#9733;&#9733;&#9733;&#9733;</p>
                                     <p>Reviewed 3 months ago</p>
                                 </div>
+                                
                                 <div class="customer-rating customer-rating-red">2.0</div>
                             </div>
                             <p class="customer-text">The dumplings were so greasy...the pan-fried shrimp noodles were
