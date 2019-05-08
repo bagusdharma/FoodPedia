@@ -194,7 +194,7 @@ for (var i = 0; i < btns.length; i++) {
            Kabupaten / Kota:
           <select name="state" id="state" class="form-control"></select>
       </div>
-      <div class="col-lg-2"><br> <button class="btn btn-md btn-primary"><i class="fa fa-search"></i> Search</button>
+      <div class="col-lg-2"><br> <a href="/hasil" class="btn btn-md btn-primary"><i class="fa fa-search"></i> Search</a>
       </div>
     </div>
     <br />

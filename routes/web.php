@@ -68,4 +68,7 @@ Route::get('/fastfoodview', function () {
 
 Route::get('/review', function () {
         return view('review');
+        
+Route::get('/hasil', function () {
+        return view('surabaya');
 });
