@@ -45,3 +45,23 @@ Route::get('/dinner', function () {
 Route::get('/fastfood', function () {
         return view('layouts.fastfood');
 });
+
+Route::get('/viewall', function () {
+        return view('viewall');
+});
+
+Route::get('/breakfastview', function () {
+        return view('breakfastview');
+});
+
+Route::get('/lunchview', function () {
+        return view('lunchview');
+});
+
+Route::get('/dinnerview', function () {
+        return view('dinnerview');
+});
+
+Route::get('/fastfoodview', function () {
+        return view('fastfoodview');
+});

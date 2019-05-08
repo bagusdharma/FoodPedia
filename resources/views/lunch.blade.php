@@ -29,7 +29,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" style="color:white" href="">Lokasi</a>
+                                <a class="nav-link" style="color:white" href="/lokasi">Lokasi</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" style="color:white" href="/aboutus">Tentang Kami</a>
@@ -180,7 +180,7 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="featured-btn-wrap">
-                    <a href="" class="btn btn-lg btn-outline-danger">VIEW ALL</a>
+                    <a href="/lunchview" class="btn btn-lg btn-outline-danger">VIEW ALL</a>
                 </div>
             </div>
         </div>

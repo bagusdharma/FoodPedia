@@ -25,16 +25,16 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="/breakfast">Breakfast</a>
-                                    <a class="dropdown-item" href="">Lunch</a>
-                                    <a class="dropdown-item" href="">Dinner</a>
-                                    <a class="dropdown-item" href="">FastFood</a>
+                                    <a class="dropdown-item" href="/lunch">Lunch</a>
+                                    <a class="dropdown-item" href="/dinner">Dinner</a>
+                                    <a class="dropdown-item" href="/fastfood">FastFood</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">Lokasi</a>
+                                <a class="nav-link" style="color:white" href="/lokasi">Lokasi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/aboutus">Tentang Kami</a>
+                                <a class="nav-link" style="color:white" href="/aboutus">Tentang Kami</a>
                             </li>
                             @guest
                             <li class="nav-item dropdown">
@@ -88,12 +88,13 @@
             <p class="section-description text-center">We are a small team with great skills. See the faces behind the
                 lines of code. </p>
             <hr>
+            <hr>
             <div class="row member-content">
                 <div class="col-sm-4 col-sm-offset-1 member-thumb  fade-right in">
                     <img class="img-fluid img-center img-thumbnail rounded-circle"
-                        src="https://bootdey.com/img/Content/User_for_snippets.png" alt="">
+                        src="https://www.thewrap.com/wp-content/uploads/2015/04/Robert-Downey-Jr.-Tonight-Show.jpg" alt="">
                     <h4>Bagus Dharma Iswara</h4>
-                    <p class="title">5115100028</p>
+                    <p class="title">05111540000028</p>
                 </div>
                 <div class="col-sm-8">
                     <div class="details">
@@ -105,29 +106,27 @@
             <div class="row member-content right">
                     <div class="col-sm-8 col-sm-pull-4">
                         <div class="details">
-                            <p style="font-size:20px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is
-                                simply dummy text of the printing and typesetting industry.</p>
+                            <p style="font-size:20px">Sans</p>
                         </div>
                     </div>
                     <div class="col-sm-4 col-sm-push-8 member-thumb">
                         <img class="img-fluid img-center img-thumbnail rounded-circle"
-                            src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="">
-                        <h4>Karina S</h4>
-                        <p class="title">5117----------</p>
+                            src="http://pixdaus.com/files/items/pics/7/82/252782_47a760312539adb0b6157127979257e2_large.jpg" alt="">
+                        <h4>Yanuar</h4>
+                        <p class="title">05111640000000</p>
                     </div>
                 </div>
 
             <div class="row member-content">
                 <div class="col-sm-4 col-sm-offset-1 member-thumb">
                     <img class="img-fluid img-center img-thumbnail rounded-circle"
-                        src="https://bootdey.com/img/Content/HexGames349.jpg" alt="">
-                    <h4>El morenito</h4>
-                    <p class="title">Lead Developer</p>
+                        src="https://media.wmagazine.com/photos/5a5f5f33c4341d3bec531e85/4:3/w_1536/kendall-jenner-blake-griffin-never-serious-web-lead.jpg" alt="">
+                    <h4>Karina Soraya Puspitasari</h4>
+                    <p class="title">05111740000003</p>
                 </div>
                 <div class="col-sm-8">
                     <div class="details">
-                        <p style="font-size:20px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is
-                            simply dummy text of the printing and typesetting industry.</p>
+                        <p style="font-size:20px">Gapai mimpimu hingga idolamu menjadi partner hidupmu</p>
                     </div>
                 </div>
             </div>
@@ -135,15 +134,14 @@
             <div class="row member-content right">
                 <div class="col-sm-8 col-sm-pull-4">
                     <div class="details">
-                        <p style="font-size:20px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is
-                            simply dummy text of the printing and typesetting industry.</p>
+                        <p style="font-size:20px">Food is Everything</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-push-8 member-thumb">
                     <img class="img-fluid img-center img-thumbnail rounded-circle"
-                        src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="">
-                    <h4>Karina S</h4>
-                    <p class="title">5117----------</p>
+                        src="https://data.whicdn.com/images/313946774/large.jpg" alt="">
+                    <h4>Tria Nur Aisyah Amini</h4>
+                    <p class="title">05111740000092</p>
                 </div>
             </div>
         </div>

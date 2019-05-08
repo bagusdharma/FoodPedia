@@ -32,7 +32,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" style="color:white" href="">Lokasi</a>
+                                    <a class="nav-link" style="color:white" href="/lokasi">Lokasi</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" style="color:white" href="/aboutus">Tentang Kami</a>
@@ -320,12 +320,12 @@
         <div class="featured-place-wrap">
             <a href="/detail">
                 <img src="{{asset('template/images/featured3.jpg')}} " class="img-fluid" alt="">
-                <span class="featured-rating">3.2</span>
+                <span class="featured-rating-green">9.0</span>
                 <div class="featured-title-box">
                     <h6>Tasty Hand-Pulled Noodles</h6>
                     <p>Restaurant </p> <span>• </span>
                     <p>3 Reviews</p> <span> • </span>
-                    <p><span>&#9733;&#9733;&#9733;</span>&#9734;&#9734;</p>
+                    <p><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
                     <ul>
                         <li><span class="icon-location-pin"></span>
                             <p>1301 Avenue, Brooklyn, NY 11230</p>
@@ -351,7 +351,7 @@
 <div class="row justify-content-center">
     <div class="col-md-4">
         <div class="featured-btn-wrap">
-            <a href="" class="btn btn-danger">VIEW ALL</a>
+            <a href="/viewall" class="btn btn-danger">VIEW ALL</a>
         </div>
     </div>
 </div>
@@ -370,7 +370,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 category-responsive">
-                <a href="#" class="category-wrap">
+                <a href="/breakfast" class="category-wrap">
                     <div class="category-block">
                         {{-- <svg class="category-img" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
@@ -465,7 +465,7 @@
                 </a>
             </div>
             <div class="col-md-3 category-responsive">
-                <a href="#" class="category-wrap">
+                <a href="/lunch" class="category-wrap">
                     <div class="category-block">
                         {{-- <svg class="category-img" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px"
@@ -542,7 +542,7 @@
                 </a>
             </div>
             <div class="col-md-3 category-responsive">
-                <a href="#" class="category-wrap">
+                <a href="/dinner" class="category-wrap">
                     <div class="category-block">
                         {{-- <svg class="category-img" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_2" x="0px" y="0px"
@@ -643,7 +643,7 @@
                 </a>
             </div>
             <div class="col-md-3 category-responsive">
-                <a href="#" class="category-wrap">
+                <a href="/fastfood" class="category-wrap">
                     <div class="category-block">
                         {{-- <svg class="category-img" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_3" x="0px" y="0px"

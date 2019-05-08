@@ -116,14 +116,14 @@ for (var i = 0; i < btns.length; i++) {
                                     <span class="icon-arrow-down"></span>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item" href="/breakfast">Breakfast</a>
-                                  <a class="dropdown-item" href="/lunch">Lunch</a>
-                                  <a class="dropdown-item" href="/dinner">Dinner</a>
-                                  <a class="dropdown-item" href="/fastfood">FastFood</a>
+                                    <a class="dropdown-item" href="/breakfast">Breakfast</a>
+                                    <a class="dropdown-item" href="/lunch">Lunch</a>
+                                    <a class="dropdown-item" href="/dinner">Dinner</a>
+                                    <a class="dropdown-item" href="/fastfood">FastFood</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" style="color:white" href="">Lokasi</a>
+                                <a class="nav-link" style="color:white" href="/lokasi">Lokasi</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" style="color:white" href="/aboutus">Tentang Kami</a>
@@ -208,7 +208,7 @@ for (var i = 0; i < btns.length; i++) {
               <a href="/detail">
                   <img src="{{asset('template/images/featured1.jpg')}} " class="img-fluid" alt="">
                   <div class="featured-title-box">
-                      <h6>Soto Ayam Lamongan Cak Har</h6>
+                      <h6>Soto Cak Har</h6>
                       <p>Restaurant </p> <span>• </span>
                       <p>12 Reviews</p> <span></span>
                       <ul>
